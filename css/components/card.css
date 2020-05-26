@@ -1,0 +1,66 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.card {
+  border: 1px solid #dfdfdf;
+}
+
+.card, .card-special {
+  text-align: center;
+}
+
+.card-special {
+  padding: 35px 30px;
+}
+
+.card-icon {
+  font-size: 50px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00e0d0), to(#4aa3cc));
+  background-image: -o-linear-gradient(left, #00e0d0 0%, #4aa3cc 100%);
+  background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-title {
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 900;
+  margin: 30px 0 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.card-text {
+  margin: 0;
+}
+
+.card-name {
+  margin: 15px 0 5px;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.card-position {
+  display: inline-block;
+  margin: 0 0 20px;
+  color: #fafafa;
+  opacity: 0.7;
+  font-size: 13px;
+  line-height: 1.1;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.card-img>img {
+  height: 230px;
+}
